@@ -1,6 +1,9 @@
 # dojo-ios-ws
 Webservices usado no dojo de IOS
 
+# Run
+mvn spring-boot:run
+
 # Insert
 curl -i -X POST -H "Content-Type:application/json" -d '{  "firstName" : "Frodo",  "lastName" : "Baggins" , "email" : "teste@teste.com.br", "password" : "123"}' http://localhost:8080/people
 
